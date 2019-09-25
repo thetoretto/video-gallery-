@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif
+}
+
+.navbar_header {
+    background: rgb(248, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+    /* border-bottom: 0.2rem solid rgb(61, 94, 61); */
+}
+
+.navbar_btn {
+    border: 3px solid rgb(61, 94, 61);
+    align-self: center;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 25px;
+    height: 3px;
+    margin: 0.4rem;
+    background: rgb(61, 94, 61);
+    transition: all 2s ease;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-8px, 7px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-6px, -5.5px);
+}
+
+.navbar_links {
+    list-style-type: none;
+    transition: all 1.2s ease;
+
+    height: 0;
+    overflow: hidden;
+}
+
+.navbar_collapse {
+/*     border-top: 3px solid rgb(61, 94, 61); */
+    height: 223px;
+
+}
+
+/* i {
+    margin-right: 10px;
+} */
+
+.navbar_single-link {
+    display: block;
+    background: rgb(218, 200, 169);
+    padding: 1rem;
+    padding-left: 30px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(248, 241, 241);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.navbar_single-link:hover {
+    padding-left: 2.5rem;
+    color: rgb(61, 94, 61);
+    background: rgba(218, 200, 169, 0.5);
+
+}
+
+header {
+    min-height: calc(100vh - 298px);
+    /* min-height: calc(100vh - 78px); */
+    background: url('https://images.wallpaperscraft.com/image/leaves_branch_dark_green_130572_3840x2400.jpg')center/cover no-repeat;
+}
+
+
+
+/*vdeo section */
+
+
